@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anil Supply — Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><h1>Anil Supply</h1><p class="tagline">You like the product price</p></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h2>Contact & Order</h2>
+    <p>Email: <a href="mailto:anilkumaranilkumaranilkumar50@gmail.com">anilkumaranilkumaranilkumar50@gmail.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/918374850373" target="_blank">+91 83748 50373</a></p>
+    <p>Instagram: <a href="https://instagram.com/your_instagram" target="_blank">instagram.com/your_instagram</a></p>
+
+    <h3>Send Order via Form (opens WhatsApp)</h3>
+    <form id="contactForm" class="contact-form" onsubmit="return handleForm(event)">
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="tel" id="phone" placeholder="Phone / WhatsApp number" required>
+      <textarea id="message" placeholder="Message / Order details" required></textarea>
+      <button type="submit" class="btn">Send Order</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year5"></span> Anil Supply — All items • Best Prices</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
